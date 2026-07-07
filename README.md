@@ -18,6 +18,8 @@
 
 ---
 
+<img src="airflow-s3-snowflake-etl-email.png" alt="Airflow S3 Snowflake ETL Email Pipeline" width="900"/>
+
 ## 📌 Project Overview
 
 This project demonstrates an end-to-end **cloud ETL workflow** using **Apache Airflow**, **AWS S3**, **Snowflake**, and automated **email notification**.
@@ -74,12 +76,6 @@ Airflow-S3-Snowflake-ETL-Email/
 ├── LICENSE                            # MIT license
 └── .gitignore                         # Git ignored files
 ```
-
----
-
-## 🖼️ Pipeline Architecture
-
-<img src="airflow-s3-snowflake-etl-email.png" alt="Airflow S3 Snowflake ETL Email Pipeline" width="900"/>
 
 ---
 
