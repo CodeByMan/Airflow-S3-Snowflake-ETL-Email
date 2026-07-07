@@ -1,0 +1,67 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+credentials.json
+service-account.json
+
+# Airflow local files
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+standalone_admin_password.txt
+logs/
+plugins/__pycache__/
+dags/__pycache__/
+
+# Airflow runtime folders
+scheduler/latest
+webserver_config.py
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Snowflake / SQL temp files
+*.snowsql
+.snowsql/
+
+# AWS local config backups
+.aws/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
